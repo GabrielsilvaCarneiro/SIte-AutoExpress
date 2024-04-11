@@ -1,8 +1,13 @@
 <?php 
 
-$usuario = 'dese1709_autoexpress';
-$senha = 'Gabriel03.';
-$banco = 'dese1709_autoexpress';
+// $usuario = 'dese1709_autoexpress';
+// $senha = 'Gabriel03.';
+// $banco = 'dese1709_autoexpress';
+// $servidor = 'localhost';
+
+$usuario = 'root';
+$senha = '';
+$banco = 'autoexpress';
 $servidor = 'localhost';
 
 date_default_timezone_set('America/Sao_Paulo');
