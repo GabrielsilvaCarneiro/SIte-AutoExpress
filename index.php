@@ -140,7 +140,7 @@ if($total_reg > 0){
           <li style="color: #ffffff;" ><a style="color: #ffffff;" href="#team">Time</a></li>
         <?php } ?>
           <li style="color: #ffffff;" ><a style="color: #ffffff;" href="#contact">Contato</a></li>
-           <li style="color: #ffffff;" ><a style="color: #ffffff;" href="sistema" target="_blank">Acesso</a></li>
+           <li style="color: #ffffff;" ><a style="color: #ffffff;" href="pages/LojaExpress.html" target="_blank">Loja</a></li>
         </ul>
       </div>
     </div>
