@@ -357,9 +357,127 @@ height: 75px;
 }
 
 .textDr{
-color: #fff;
-align-items: center;
-text-align: center;
-  font-size: 15px;
-  margin-top: -60px;
-}
+  color: #fff;
+  align-items: center;
+  text-align: center;
+    font-size: 15px;
+    margin-top: -60px;
+    text-decoration: underline;
+  }
+  
+   /* ///////////////DIV WHATSAPP///////////////// */
+  
+  .DivWhatsApp{
+    color: #fff; font-size: 14px;
+    margin-top: -200px;
+    margin-left: 525px;
+  }
+  
+  .h3-WhatsApp{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .p-WhatsApp{
+    margin-top: 15px;
+    margin-left: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+  }
+  
+  .DivWhatsApp svg {
+    background-color: #ffffffb7;
+    border: solid black 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    fill: rgb(0, 0, 0);
+    transition: background .3s ease,
+            transform .2s ease;
+    }
+    
+    .DivWhatsApp svg:hover {
+    transform: var(--transform-animation);
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #000000;
+    border: solid white 2px;
+    fill: rgb(255, 255, 255);
+    }
+  
+    /* ///////////////DIV EMAIL///////////////// */
+  
+    .DivEmail{
+      color: #fff; font-size: 14px;
+      margin-left: 835px;
+      margin-top: -165px;
+    }
+    
+    .h3-Email{
+      margin-top: 10px;
+      margin-left: 28px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .p-Email{
+      margin-top: 15px;
+      margin-left: -30px;
+      text-decoration: underline;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .DivEmail svg {
+      background-color: #ffffffb7;
+      border: solid black 2px;
+      border-radius: 15px;
+      cursor: pointer;
+      fill: rgb(0, 0, 0);
+      transition: background .3s ease,
+              transform .2s ease;
+      }
+      
+      .DivEmail svg:hover {
+      transform: var(--transform-animation);
+      box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+      background-color: #000000;
+      border: solid white 2px;
+      fill: rgb(255, 255, 255);
+      }
+  
+       /* ///////////////DIV LOCALIZAÇÂO///////////////// */
+  
+       .DivEndereco{
+        color: #fff; font-size: 14px;
+        margin-left: 1150px;
+        margin-top: -175px;
+      }
+      
+      .h3-Endereco{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+  
+      .p-Endereco{
+        margin-top: 15px;
+        margin-left: -45px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+      }
+      
+      .DivEndereco svg {
+        background-color: #ffffffb7;
+        border: solid black 2px;
+        border-radius: 15px;
+        cursor: pointer;
+        fill: rgb(0, 0, 0);
+        transition: background .3s ease,
+                transform .2s ease;
+        }
+        
+        .DivEndereco svg:hover {
+        transform: var(--transform-animation);
+        box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+        background-color: #000000;
+        border: solid white 2px;
+        fill: rgb(255, 255, 255);
+        }
